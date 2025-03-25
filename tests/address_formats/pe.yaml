@@ -1,0 +1,16 @@
+# Peru
+---
+- description: Building in Peru, 1.391999, 103.751071
+  components:
+    street_number: "922"
+    street_name: C. Piura
+    postalcode: "15074"
+    city: "Miraflores"
+    state: "Lima"
+    country: "Peru"
+  expected_multiline: |
+    C. Piura 922
+    15074
+    Miraflores
+    Lima
+    Peru

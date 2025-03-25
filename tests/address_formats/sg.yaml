@@ -1,0 +1,24 @@
+# Singapore
+---
+- description: Building in Singapore, 1.391999, 103.751071
+  components:
+    street_number: "19"
+    street_name: Verde Walk
+    postalcode: "688779"
+    country: "Singapore"
+  expected_multiline: |
+    19 Verde Walk
+    Singapore 688779
+- description: Example, faked block address
+  components:
+    unit: "#12-32"
+    house_name: Block 23
+    street_number: "20"
+    street_name: Jurong West Avenue 2
+    city: Singapore
+    postalcode: "12345"
+    country: "Singapore"
+  expected_multiline: |
+    20 Jurong West Avenue 2
+    #12-32 Block 23
+    Singapore 12345

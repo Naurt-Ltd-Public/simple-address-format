@@ -1,0 +1,39 @@
+#! Please keep all templates in alphabetical order and using ISO 3166-1 alpha-2 country codes .
+---
+GB:
+  multiline_template: |
+    {{{unit}}}
+    {{{house_name}}}
+    {{{street_number}}} {{{street_name}}}
+    {{{city}}}
+    {{{postalcode}}}
+    {{#state}}
+    {{{state}}}
+    {{/state}}
+    {{^state}}
+    {{{country}}}
+    {{/state}}
+
+PE:
+  multiline_template: |
+    {{{house_name}}}
+    {{{street_name}}} {{{street_number}}}
+    {{{unit}}}
+    {{{postalcode}}}
+    {{{city}}}
+    {{{state}}}
+    {{{country}}}
+
+SG:
+  multiline_template: |
+    {{{street_number}}} {{{street_name}}}
+    {{{unit}}} {{{house_name}}}
+    {{{country}}} {{{postalcode}}}
+
+# US needs a different format for single-line. Can't just replace on newline.
+US:
+  multiline_template: |
+    {{{house_name}}}
+    {{{street_number}}} {{{street_name}}} {{{unit}}}
+    {{{city}}} {{{state}}} {{{postalcode}}}
+    {{{country}}}

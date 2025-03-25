@@ -1,0 +1,29 @@
+# United States
+---
+- description: Building in US, 51.240494, 0.556341
+  components:
+    unit: "Suite #300"
+    street_number: "880"
+    street_name: SW 145th Ave
+    city: Pembroke Pines
+    postalcode: "33027"
+    state: FL
+    country: "United States"
+  expected_multiline: |
+    880 SW 145th Ave Suite #300
+    Pembroke Pines FL 33027
+    United States
+- description: Empire state building
+  components:
+    house_name: Empire State Building
+    street_number: "20"
+    street_name: W 24th St
+    city: New York
+    postalcode: "10001"
+    state: NY
+    country: "US"
+  expected_multiline: |
+    Empire State Building
+    20 W 24th St
+    New York NY 10001
+    US
