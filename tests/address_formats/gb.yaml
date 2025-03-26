@@ -34,3 +34,21 @@
     Scotland
   expected_singleline: >
     7 Victoria Square, Stirling, FK8 2RA, Scotland
+
+- description: Fake address
+  components:
+    street_number: 28
+    street_name: Grant Road
+    locality: Croydon
+    city: London
+    postalcode: CR0 6PG
+    state: England
+    country: United Kingdom
+  expected_multiline: |
+    28 Grant Road
+    Croydon
+    London
+    CR0 6PG
+    United Kingdom
+  expected_singleline: >
+    28 Grant Road, Croydon, London, CR0 6PG, United Kingdom

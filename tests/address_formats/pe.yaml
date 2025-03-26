@@ -5,14 +5,13 @@
     street_number: "922"
     street_name: C. Piura
     postalcode: "15074"
-    city: "Miraflores"
-    state: "Lima"
+    locality: "Miraflores"
+    city: "Lima"
     country: "Peru"
   expected_multiline: |
     C. Piura 922
-    15074
     Miraflores
-    Lima
+    Lima 15074
     Peru
   expected_singleline: >
-    C. Piura 922, 15074 Miraflores, Lima, Peru
+    C. Piura 922, Miraflores, Lima 15074, Peru

@@ -6,6 +6,7 @@ GB:
     {{{unit}}}
     {{{house_name}}}
     {{{street_number}}} {{{street_name}}}
+    {{{locality}}}
     {{{city}}}
     {{{postalcode}}}
     {{#country}}
@@ -18,6 +19,7 @@ GB:
     {{{unit}}},
     {{{house_name}}},
     {{{street_number}}} {{{street_name}}},
+    {{{locality}}},
     {{{city}}},
     {{{postalcode}}},
     {{#country}}
@@ -32,15 +34,16 @@ PE:
     {{{house_name}}}
     {{{street_name}}} {{{street_number}}}
     {{{unit}}}
-    {{{postalcode}}}
-    {{{city}}}
+    {{{locality}}}
+    {{{city}}} {{{postalcode}}}
     {{{state}}}
     {{{country}}}
   singleline_template: >
     {{{house_name}}},
     {{{street_name}}} {{{street_number}}},
     {{{unit}}},
-    {{{postalcode}}} {{{city}}},
+    {{{locality}}},
+    {{{city}}} {{{postalcode}}},
     {{{state}}},
     {{{country}}}
 
@@ -49,23 +52,26 @@ SG:
   multiline_template: |
     {{{street_number}}} {{{street_name}}}
     {{{unit}}} {{{house_name}}}
+    {{{locality}}}
     {{{country}}} {{{postalcode}}}
   singleline_template: >
     {{{street_number}}} {{{street_name}}},
     {{{unit}}},
     {{{house_name}}},
+    {{{locality}}},
     {{{country}}} {{{postalcode}}}
 
+# Use locality if available. If not, default to city.
 US:
   multiline_template: |
     {{{house_name}}}
     {{{street_number}}} {{{street_name}}} {{{unit}}}
-    {{{city}}} {{{state}}} {{{postalcode}}}
+    {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}} {{{postalcode}}}
     {{{country}}}
   singleline_template: >
     {{{house_name}}},
     {{{street_number}}} {{{street_name}}},
     {{{unit}}},
-    {{{city}}}, 
+    {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}}, 
     {{{state}}} {{{postalcode}}},
     {{{country}}}

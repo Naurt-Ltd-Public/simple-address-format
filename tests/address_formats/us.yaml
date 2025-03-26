@@ -32,3 +32,19 @@
     US
   expected_singleline: >
     Empire State Building, 20 W 24th St, New York, NY 10001, US
+
+- description: Vegas address
+  components:
+    street_number: "3030"
+    street_name: Hammerwood Dr
+    locality: Summerlin
+    city: Las Vegas
+    postalcode: "89135"
+    state: NV
+    country: "US"
+  expected_multiline: |
+    3030 Hammerwood Dr
+    Summerlin NV 89135
+    US
+  expected_singleline: >
+    3030 Hammerwood Dr, Summerlin, NV 89135, US
