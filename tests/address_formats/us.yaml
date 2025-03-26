@@ -13,6 +13,9 @@
     880 SW 145th Ave Suite #300
     Pembroke Pines FL 33027
     United States
+  expected_singleline: >
+    880 SW 145th Ave, Suite #300, Pembroke Pines, FL 33027, United States
+
 - description: Empire state building
   components:
     house_name: Empire State Building
@@ -27,3 +30,5 @@
     20 W 24th St
     New York NY 10001
     US
+  expected_singleline: >
+    Empire State Building, 20 W 24th St, New York, NY 10001, US

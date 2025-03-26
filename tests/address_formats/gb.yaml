@@ -16,7 +16,9 @@
     49 Wallis Avenue
     Maidstone
     ME15 9HS
-    England
+    United Kingdom
+  expected_singleline: >
+    Flat 4, Challenger Court, 49 Wallis Avenue, Maidstone, ME15 9HS, United Kingdom
 
 - description: Building in UK, 56.116730, -3.945425
   components:
@@ -25,9 +27,10 @@
     city: Stirling
     postalcode: FK8 2RA
     state: Scotland
-    country: United Kingdom
   expected_multiline: |
     7 Victoria Square
     Stirling
     FK8 2RA
     Scotland
+  expected_singleline: >
+    7 Victoria Square, Stirling, FK8 2RA, Scotland

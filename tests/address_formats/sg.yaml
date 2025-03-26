@@ -9,6 +9,8 @@
   expected_multiline: |
     19 Verde Walk
     Singapore 688779
+  expected_singleline: >
+    19 Verde Walk, Singapore 688779
 - description: Example, faked block address
   components:
     unit: "#12-32"
@@ -22,3 +24,5 @@
     20 Jurong West Avenue 2
     #12-32 Block 23
     Singapore 12345
+  expected_singleline: >
+    20 Jurong West Avenue 2, #12-32, Block 23, Singapore 12345
