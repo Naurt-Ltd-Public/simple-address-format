@@ -1,0 +1,35 @@
+# Australia
+---
+- description: Building in Melbourne, -37.782980, 144.974222
+  components:
+    street_number: "190"
+    street_name: Amess St
+    locality: Carlton North
+    city: Melbourne
+    postalcode: "3054"
+    state: VIC
+    country: Australia
+  expected_multiline: |
+    190 Amess St
+    Carlton North VIC 3054
+    Australia
+  expected_singleline: >
+    190 Amess St, Carlton North VIC 3054, Australia
+
+- description: Unit in Melbourne, -37.755463, 144.995746
+  components:
+    unit: Unit 4
+    street_number: 28/30
+    street_name: Hutton St
+    city: Melbourne
+    locality: Thornbury
+    postalcode: "3071"
+    state: VIC
+    country: Australia
+  expected_multiline: |
+    Unit 4
+    28/30 Hutton St
+    Thornbury, VIC, 2071
+    Australia
+  expected_singleline: >
+    Unit 4, 28/30 Hutton St, Thornbury VIC 3071, Australia
