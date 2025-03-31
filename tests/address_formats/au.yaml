@@ -29,7 +29,7 @@
   expected_multiline: |
     Unit 4
     28/30 Hutton St
-    Thornbury VIC 2071
+    Thornbury VIC 3071
     Australia
   expected_singleline: >
-    Unit 4, 28/30 Hutton St, Thornbury VIC 2071, Australia
+    Unit 4, 28/30 Hutton St, Thornbury VIC 3071, Australia
