@@ -1,0 +1,17 @@
+# New Zealand
+---
+- description: Building in new zealand -41.319833, 174.776274
+  components:
+    street_number: "24"
+    street_name: Luxford Street
+    postalcode: "6023"
+    locality: "Berhampore"
+    city: "Wellington"
+    country: "New Zealand"
+  expected_multiline: |
+    24 Luxford Street
+    Berhampore
+    Wellington 6023
+    New Zealand
+  expected_singleline: >
+    24 Luxford Street, Berhampore, Wellington 6023, New Zealand

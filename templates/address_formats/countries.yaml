@@ -44,6 +44,22 @@ GB:
     {{{state}}}
     {{/country}}
 
+NZ:
+  multiline_template: |
+    {{{unit}}}
+    {{{house_name}}}
+    {{{street_number}}} {{{street_name}}}
+    {{{locality}}}
+    {{{city}}} {{{postalcode}}}
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}},
+    {{{house_name}}},
+    {{{street_number}}} {{{street_name}}},
+    {{{locality}}},
+    {{{city}}} {{{postalcode}}},
+    {{{country}}}
+
 PE:
   multiline_template: |
     {{{house_name}}}
