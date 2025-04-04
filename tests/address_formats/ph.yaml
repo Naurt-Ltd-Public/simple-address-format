@@ -1,0 +1,18 @@
+# Philippines
+---
+- description: University in Philippines, 1.391999, 103.751071
+  components:
+    street_number: "2219"
+    street_name: Recto Ave
+    postalcode: "1008"
+    locality: "Sampaloc"
+    city: "Manila"
+    state: "Metro Manila"
+    country: "Philippines"
+  expected_multiline: |
+    2219 Recto Ave, Sampaloc
+    Manila
+    1008 Metro Manila
+    Philippines
+  expected_singleline: >
+    2219 Recto Ave, Sampaloc, Manila, 1008 Metro Manila, Philippines

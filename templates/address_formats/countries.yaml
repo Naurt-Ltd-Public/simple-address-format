@@ -78,6 +78,24 @@ PE:
     {{{state}}},
     {{{country}}}
 
+# https://en.wikipedia.org/wiki/Address#Philippines
+PH:
+  multiline_template: |
+    {{{unit}}}
+    {{{house_name}}}
+    {{{street_name}}} {{{street_number}}}, {{{locality}}}
+    {{{city}}}
+    {{{postalcode}}}  {{{state}}}
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}},
+    {{{house_name}}}, 
+    {{{street_name}}} {{{street_number}}},
+    {{{locality}}},
+    {{{city}}},
+    {{{postalcode}}}  {{{state}}},
+    {{{country}}}
+
 # From singapore post
 SG:
   multiline_template: |
