@@ -83,17 +83,17 @@ PH:
   multiline_template: |
     {{{unit}}}
     {{{house_name}}}
-    {{{street_name}}} {{{street_number}}}, {{{locality}}}
+    {{{street_number}}} {{{street_name}}}, {{{locality}}}
     {{{city}}}
-    {{{postalcode}}}  {{{state}}}
+    {{{postalcode}}} {{{state}}}
     {{{country}}}
   singleline_template: >
     {{{unit}}},
     {{{house_name}}}, 
-    {{{street_name}}} {{{street_number}}},
+    {{{street_number}}} {{{street_name}}},
     {{{locality}}},
     {{{city}}},
-    {{{postalcode}}}  {{{state}}},
+    {{{postalcode}}} {{{state}}},
     {{{country}}}
 
 # From singapore post
