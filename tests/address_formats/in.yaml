@@ -7,6 +7,7 @@
     postalcode: "637408"
     locality: "Kamaraj Nagar"
     city: "Rasipuram"
+    state: "Tamil Nadu"
     country: "India"
   expected_multiline: |
     68, Pattanam Rd
