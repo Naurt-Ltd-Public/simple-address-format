@@ -16,7 +16,7 @@ AU:
     {{{country}}}
 
 EE:
-  mulitline_template: |
+  multiline_template: |
     {{{unit}}}
     {{{street_name}}} {{{street_number}}}, {{{house_name}}}
     {{{locality}}}
