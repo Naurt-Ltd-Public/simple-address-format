@@ -1,0 +1,15 @@
+# Estonia
+---
+- description: Building in Estonia 
+  components:
+    street_number: "4"
+    street_name: "Haraka tn"
+    postalcode: "11311"
+    city: "Tallinn"
+    country: "Estonia"
+  expected_multiline: |
+    Haraka tn 4
+    11311 Tallinn
+    Estonia
+  expected_singleline: >
+    Haraka tn 4, 11311 Tallinn, Estonia

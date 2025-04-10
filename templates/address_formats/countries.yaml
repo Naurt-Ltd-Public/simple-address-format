@@ -15,6 +15,22 @@ AU:
     {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}} {{{postalcode}}},
     {{{country}}}
 
+EE:
+  mulitline_template: |
+    {{{unit}}}
+    {{{street_name}}} {{{street_number}}}, {{{house_name}}}
+    {{{locality}}}
+    {{{postalcode}}} {{{city}}}
+    {{{state}}}
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}},
+    {{{street_name}}} {{{street_number}}}, {{{house_name}}}
+    {{{locality}}},
+    {{{postalcode}}} {{{city}}},
+    {{{state}}},
+    {{{country}}}
+
 # From Royal mail
 GB:
   multiline_template: |
@@ -43,6 +59,41 @@ GB:
     {{^country}}
     {{{state}}}
     {{/country}}
+
+IN: 
+  multiline_template: |
+    {{{unit}}}, {{{house_name}}}
+    {{{street_number}}}, {{{street_name}}}
+    {{{locality}}}
+    {{{city}}} {{{postalcode}}}
+    {{{state}}}
+    {{{country}}}
+
+  singleline_template: >
+    {{{unit}}},
+    {{{house_name}}},
+    {{{street_number}}}, {{{street_name}}},
+    {{{locality}}},
+    {{{city}}} {{{postalcode}}},
+    {{{state}}},
+    {{{country}}}
+
+LV:
+  multiline_template: |
+    {{{unit}}}
+    {{{street_name}}} {{{street_number}}}, {{{house_name}}} 
+    {{{locality}}}
+    {{{city}}}, {{{postalcode}}}
+    {{{state}}}
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}},
+    {{{street_name}}} {{{street_number}}}, {{{house_name}}},
+    {{{locality}}},
+    {{{city}}},
+    {{{postalcode}}},
+    {{{state}}},
+    {{{country}}}
 
 NZ:
   multiline_template: |

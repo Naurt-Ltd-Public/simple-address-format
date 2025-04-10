@@ -1,0 +1,39 @@
+# India
+---
+- description: Restaurant in India 
+  components:
+    street_number: "68"
+    street_name: "Pattanam Rd"
+    postalcode: "637408"
+    locality: "Kamaraj Nagar"
+    city: "Rasipuram"
+    country: "India"
+  expected_multiline: |
+    68, Pattanam Rd
+    Kamaraj Nagar
+    Rasipuram 637408
+    Tamil Nadu
+    India
+  expected_singleline: >
+    68, Pattanam Rd, Kamaraj Nagar, Rasipuram 637408, Tamil Nadu, India
+
+- description: "Unit in India"
+  components: 
+    unit: "301 3rd Floor"
+    house_name: "Samruddhi Plaza"
+    street_name: "Mira Bhayandar Rd"
+    city: "Mira Bhayandar"
+    locality: "Medetiya Nagar"
+    state: Maharashtra
+    postalcode: "401107"
+    country: "India"
+
+  expected_multiline: |
+    301 3rd Floor, Samruddhi Plaza
+    Mira Bhayandar Rd
+    Medetiya Nagar
+    Mira Bhayandar 401107
+    Maharashtra
+    India
+  expected_singleline: >
+    301 3rd Floor, Samruddhi Plaza, Mira Bhayandar Rd, Medetiya Nagar, Mira Bhayandar 401107, Maharashtra, India

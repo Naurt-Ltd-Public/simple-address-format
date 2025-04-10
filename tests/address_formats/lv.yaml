@@ -1,0 +1,17 @@
+# Latvia
+---
+- description: Building in Latvia 
+  components:
+    street_number: "1"
+    street_name: "Jaunsaules iela"
+    postalcode: "LV-1083"
+    locality: "Kurzemes rajons"
+    city: "Rīga"
+    country: "Latvia"
+  expected_multiline: |
+    Jaunsaules iela 1
+    Kurzemes rajons
+    Rīga, LV-1083
+    Latvia
+  expected_singleline: >
+    Jaunsaules iela 1, Kurzemes rajons, Rīga, LV-1083, Latvia
