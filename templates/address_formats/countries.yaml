@@ -31,6 +31,22 @@ EE:
     {{{state}}},
     {{{country}}}
 
+ES:
+  multiline_template: |
+    {{{house_name}}}
+    {{{street_name}}} {{{street_number}}}
+    {{{unit}}}
+    {{{locality}}}
+    {{{postalcode}}} {{{city}}} 
+    {{{country}}}
+  singleline_template: >
+    {{{house_name}}},
+    {{{street_name}}} {{{street_number}}},
+    {{{unit}}},
+    {{{locality}}},
+    {{{postalcode}}} {{{city}}},
+    {{{country}}}
+
 # From Royal mail
 GB:
   multiline_template: |
@@ -60,7 +76,7 @@ GB:
     {{{state}}}
     {{/country}}
 
-IN: 
+IN:
   multiline_template: |
     {{{unit}}}, {{{house_name}}}
     {{{street_number}}}, {{{street_name}}}

@@ -1,0 +1,17 @@
+# Spain
+---
+- description: Building in Spain, 40.37191, -3.69212
+  components:
+    street_number: "31"
+    street_name: C. de la Estafet
+    postalcode: "28041"
+    locality: "Usera"
+    city: "Madrid"
+    country: "España"
+  expected_multiline: |
+    C. de la Estafeta 31
+    Usera
+    28041 Madrid
+    España
+  expected_singleline: >
+    C. de la Estafeta, 31, Usera, 28041 Madrid, España
