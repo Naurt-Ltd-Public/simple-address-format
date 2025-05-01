@@ -9,7 +9,7 @@
     city: "Madrid"
     country: "España"
   expected_multiline: |
-    C. de la Estafeta 31
+    C. de la Estafeta, 31
     Usera
     28041 Madrid
     España
