@@ -1,0 +1,32 @@
+# Canada
+---
+- description: Building in Montréal
+  components:
+    street_number: "4572"
+    street_name: Avenue Papineau
+    city: Montréal
+    postalcode: "H2H 1V3"
+    state: Quebec
+    country: Canada
+  expected_multiline: |
+    4572 Avenue Papineau
+    Montréal Quebec H2H 1V3
+    Canada
+  expected_singleline: >
+    4572 Avenue Papineau, Montréal, Quebec H2H 1V3, Canada
+
+- description: Building In Surrey
+  components:
+    unit: "7a"
+    street_number: "9259"
+    street_name: 122 Street
+    locality: Surrey
+    postalcode: "V3V 7R3"
+    state: BC
+    country: "Canada"
+  expected_multiline: |
+    7a 9259 122 Street
+    Surrey BC V3V 7R3
+    Canada
+  expected_singleline: >
+    7a 9259 122 Street, Surrey, BC V3V 7R3, Canada
