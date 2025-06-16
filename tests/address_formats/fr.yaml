@@ -1,0 +1,17 @@
+# France
+---
+- description: Building in Paris
+  components:
+    unit: "10"
+    street_number: "47"
+    street_name: Rue Auguste Buisson
+    locality: La Garenne-Colombes
+    postalcode: "92250"
+    country: France
+  expected_multiline: |
+    10
+    47 Rue Auguste Buisson
+    92250 La Garenne-Colombes
+    France
+  expected_singleline: >
+    10, 47 Rue Auguste Buisson, 92250 La Garenne-Colombes, France
