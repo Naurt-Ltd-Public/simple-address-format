@@ -23,10 +23,10 @@ BR:
     {{{postalcode}}}
     {{{country}}}
   singleline_template: >
-    {{{street_name}}}, {{{street_number}}}, {{{house_name}}}, {{{unit}}}
-    {{{locality}}} - {{{county}}}
-    {{{city}}} - {{{state}}}
-    {{{postalcode}}}
+    {{{street_name}}}, {{{street_number}}}, {{{house_name}}}, {{{unit}}},
+    {{{locality}}} - {{{county}}},
+    {{{city}}} - {{{state}}},
+    {{{postalcode}}},
     {{{country}}}
 
 CA:
