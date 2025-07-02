@@ -1,0 +1,15 @@
+# Portugal
+---
+- description: Building Portugal 38.768440, -9.244824
+  components:
+    street_number: "10"
+    street_name: R. Isabel Magalhães Colaço
+    postalcode: "2700-410"
+    city: "Amadora"
+    country: "Portugal"
+  expected_multiline: |
+    R. Isabel Magalhães Colaço 10
+    2700-410 Amadora
+    Portugal
+  expected_singleline: >
+    R. Isabel Magalhães Colaço 10, 2700-410 Amadora, Portugal
