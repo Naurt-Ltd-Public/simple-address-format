@@ -6,6 +6,7 @@
     street_name: Via della Capponcina
     postalcode: "50135"
     locality: "Settignano"
+    state: FI
     country: "Italy"
   expected_multiline: |
     Via della Capponcina, 31
