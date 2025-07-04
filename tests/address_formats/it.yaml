@@ -9,7 +9,7 @@
     state: FI
     country: "Italy"
   expected_multiline: |
-    Via della Capponcina, 31
+    Via della Capponcina 31
     50135 Settignano FI
     Italy
   expected_singleline: >
