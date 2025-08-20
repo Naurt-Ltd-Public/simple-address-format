@@ -116,6 +116,20 @@ GB:
     {{{state}}}
     {{/country}}
 
+ID:
+  multiline_template: |
+    {{{street_name}}} {{{street_number}}}
+    {{{unit}}}, {{{house_name}}}
+    {{{locality}}}, {{{city}}}
+    {{{state}}} {{{postalcode}}}
+    {{{country}}}
+  singleline_template: >
+    {{{street_name}}} {{{street_number}}}, 
+    {{{unit}}}, {{{house_name}}},
+    {{{locality}}}, {{{city}}},
+    {{{state}}}, {{{postalcode}}},
+    {{{country}}}
+
 IN:
   multiline_template: |
     {{{unit}}}, {{{house_name}}}
@@ -163,6 +177,22 @@ LV:
     {{{city}}},
     {{{postalcode}}},
     {{{state}}},
+    {{{country}}}
+
+MY:
+  multiline_template: |
+    {{{unit}}}, {{{house_name}}}
+    {{{street_number}}}, {{{street_name}}} 
+    {{{locality}}}
+    {{{city}}}
+    {{{postalcode}}} {{{state}}} 
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}}, {{{house_name}}},
+    {{{street_number}}}, {{{street_name}}}, 
+    {{{locality}}},
+    {{{city}}},
+    {{{postalcode}}} {{{state}}},
     {{{country}}}
 
 NZ:
@@ -245,6 +275,22 @@ SG:
     {{{locality}}},
     {{{country}}} {{{postalcode}}}
 
+TH:
+  multiline_template: |
+    {{{unit}}} {{{house_name}}}
+    {{{street_number}}} {{{street_name}}}
+    {{{locality}}}
+    {{{city}}}
+    {{{postalcode}}}
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}}, {{{house_name}}},
+    {{{street_number}}} {{{street_name}}},
+    {{{locality}}},
+    {{{city}}},
+    {{{postalcode}}},
+    {{{country}}}
+
 # Use locality if available. If not, default to city.
 US:
   multiline_template: |
@@ -258,4 +304,18 @@ US:
     {{{unit}}},
     {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}}, 
     {{{state}}} {{{postalcode}}},
+    {{{country}}}
+
+VN:
+  multiline_template: |
+    {{{unit}}}, {{{house_name}}}
+    {{{street_number}}}, {{{street_name}}} 
+    {{{locality}}}, {{{city}}}
+    {{{state}}} {{{postalcode}}}
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}}, {{{house_name}}},
+    {{{street_number}}}, {{{street_name}}} 
+    {{{locality}}}, {{{city}}},
+    {{{state}}}, {{{postalcode}}},
     {{{country}}}

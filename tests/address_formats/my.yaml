@@ -1,0 +1,18 @@
+---
+- description: Test address in Malaysia
+  components:
+    street_number: "23"
+    street_name: Jalan Setiakasih 9
+    locality: Bukit Damansara
+    city: Kuala Lumpur
+    state: Wilayah Persekutuan Kuala Lumpur
+    postalcode: "50490"
+    country: "Malaysia"
+  expected_multiline: |
+    23 Jalan Setiakasih 9
+    Bukit Damansara
+    Kuala Lumpur
+    50490 Wilayah Persekutuan Kuala Lumpur
+    Malaysia
+  expected_singleline: >
+    23, Jalan Setiakasih 9, Bukit Damansara, Kuala Lumpur, 50490 Wilayah Persekutuan Kuala Lumpur, Malaysia

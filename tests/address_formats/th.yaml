@@ -1,0 +1,17 @@
+---
+- description: Test address in Thailand
+  components:
+    street_number: "3271/30"
+    street_name: Ramkhamhaeng Rd
+    locality: Khwaeng Hua Mak
+    city: Krung Thep Maha Nakhon
+    postalcode: "10240"
+    country: "Thailand"
+  expected_multiline: |
+    3271/30 Ramkhamhaeng Rd
+    Khwaeng Hua Mak
+    Krung Thep Maha Nakhon
+    10240
+    Thailand
+  expected_singleline: >
+    3271/30 Ramkhamhaeng Rd, Khwaeng Hua Mak, Krung Thep Maha Nakhon, 10240, Thailand
