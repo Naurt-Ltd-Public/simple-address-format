@@ -317,5 +317,5 @@ VN:
     {{{unit}}}, {{{house_name}}},
     {{{street_number}}}, {{{street_name}}} 
     {{{locality}}}, {{{city}}},
-    {{{state}}}, {{{postalcode}}},
+    {{{state}}} {{{postalcode}}},
     {{{country}}}
