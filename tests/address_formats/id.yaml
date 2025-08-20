@@ -2,7 +2,7 @@
 - description: Test address in Jakarta
   components:
     street_number: "29"
-    street_name: Jl. Galur Sari 29
+    street_name: Jl. Galur Sari
     locality: Utan Kayu Sel.
     city: Kec. Matraman
     state: Jakarta
@@ -11,7 +11,7 @@
   expected_multiline: |
     Jl. Galur Sari 29
     Utan Kayu Sel., Kec. Matraman
-    Jakarta, 13120
+    Jakarta 13120
     Indonesia
   expected_singleline: >
-    Jl. Galur Sari 29, Utan Kayu Sel., Kec. Matraman, Jakarta, 13120, Indonesia
+    Jl. Galur Sari 29, Utan Kayu Sel., Kec. Matraman, Jakarta 13120, Indonesia
