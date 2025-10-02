@@ -15,6 +15,20 @@ AU:
     {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}} {{{postalcode}}},
     {{{country}}}
 
+BR:
+  multiline_template: |
+    {{{street_name}}}, {{{street_number}}}, {{{house_name}}}, {{{unit}}}
+    {{{locality}}} - {{{county}}}
+    {{{city}}} - {{{state}}}
+    {{{postalcode}}}
+    {{{country}}}
+  singleline_template: >
+    {{{street_name}}}, {{{street_number}}}, {{{house_name}}}, {{{unit}}},
+    {{{locality}}} - {{{county}}},
+    {{{city}}} - {{{state}}},
+    {{{postalcode}}},
+    {{{country}}}
+
 CA:
   multiline_template: |
     {{{house_name}}}
