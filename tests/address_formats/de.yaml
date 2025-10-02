@@ -1,0 +1,16 @@
+# Germany
+---
+- description: Building in Germany
+  components:
+    street_number: "4"
+    street_name: Landhausstraße
+    postalcode: "70182"
+    locality: "Usera"
+    city: "Stuttgart"
+    country: "Germany"
+  expected_multiline: |
+    Landhausstraße 4
+    70182 Stuttgart
+    Germany
+  expected_singleline: >
+    Landhausstraße 4, 70182 Stuttgart, Germany

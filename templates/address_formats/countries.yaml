@@ -27,6 +27,20 @@ CA:
     {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}},
     {{{state}}} {{{postalcode}}},
     {{{country}}}
+
+DE:
+  multiline_template: |
+    {{{house_name}}}
+    {{{street_name}}} {{{street_number}}} {{{unit}}}
+    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}}
+    {{{country}}}
+
+  singleline_template: >
+    {{{house_name}}},
+    {{{street_name}}} {{{street_number}}} {{{unit}}},
+    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}},
+    {{{country}}}
+
 EE:
   multiline_template: |
     {{{unit}}}
