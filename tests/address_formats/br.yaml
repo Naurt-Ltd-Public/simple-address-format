@@ -1,0 +1,35 @@
+# Brazil
+---
+- description: Building in Rio
+  components:
+    street_number: "338"
+    street_name: R. A
+    city: "Rio de Janeiro"
+    postalcode: "22710-074"
+    state: RJ
+    country: Brazil
+  expected_multiline: |
+    R. A, 338
+    Rio de Janeiro - RJ
+    22710-074
+    Brazil
+  expected_singleline: >
+    R. A, 338, Rio de Janeiro - RJ, 22710-074, Brazil
+- description: Building In Surrey
+  components:
+    street_number: "27"
+    street_name: St. de Chácaras
+    county: "Samambaia"
+    locality: "QSC 19"
+    city: "Brasília"
+    postalcode: "70297-402"
+    state: DF
+    country: "Brazil"
+  expected_multiline: |
+    St. de Chácaras, 27
+    QSC 19 - Samambaia
+    Brasília - DF
+    70297-402
+    Brazil
+  expected_singleline: >
+    St. de Chácaras, 27, QSC 19 - Samambaia, Brasília - DF, 70297-402, Brazil

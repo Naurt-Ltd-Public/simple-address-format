@@ -1,0 +1,16 @@
+# Italy
+---
+- description: Building in Italy, 43.781815, 11.320826
+  components:
+    street_number: "31"
+    street_name: Via della Capponcina
+    postalcode: "50135"
+    locality: "Settignano"
+    state: FI
+    country: "Italy"
+  expected_multiline: |
+    Via della Capponcina 31
+    50135 Settignano FI
+    Italy
+  expected_singleline: >
+    Via della Capponcina, 31, 50135 Settignano FI, Italy

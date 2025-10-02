@@ -1,0 +1,16 @@
+---
+- description: Test address in Hanoi
+  components:
+    street_number: "15"
+    street_name: Ng. 121 P. Thái Hà
+    locality: Đống Đa
+    state: Hà Nội
+    postalcode: "100000"
+    country: "Vietnam"
+  expected_multiline: |
+    15, Ng. 121 P. Thái Hà
+    Đống Đa
+    Hà Nội 100000
+    Vietnam
+  expected_singleline: >
+    15, Ng. 121 P. Thái Hà, Đống Đa, Hà Nội 100000, Vietnam
