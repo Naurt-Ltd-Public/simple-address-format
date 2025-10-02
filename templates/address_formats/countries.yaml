@@ -46,13 +46,13 @@ DE:
   multiline_template: |
     {{{house_name}}}
     {{{street_name}}} {{{street_number}}} {{{unit}}}
-    {{{postalcode}}} {{#city}}{{{city}}}{{/city}}{{^city}}{{{locality}}}{{/city}}
+    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}}
     {{{country}}}
 
   singleline_template: >
     {{{house_name}}},
     {{{street_name}}} {{{street_number}}} {{{unit}}},
-    {{{postalcode}}} {{#city}}{{{city}}}{{/city}}{{^city}}{{{locality}}}{{/city}},
+    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}},
     {{{country}}}
 
 EE:
@@ -130,6 +130,20 @@ GB:
     {{{state}}}
     {{/country}}
 
+ID:
+  multiline_template: |
+    {{{street_name}}} {{{street_number}}}
+    {{{unit}}}, {{{house_name}}}
+    {{{locality}}}, {{{city}}}
+    {{{state}}} {{{postalcode}}}
+    {{{country}}}
+  singleline_template: >
+    {{{street_name}}} {{{street_number}}}, 
+    {{{unit}}}, {{{house_name}}},
+    {{{locality}}}, {{{city}}},
+    {{{state}}} {{{postalcode}}},
+    {{{country}}}
+
 IN:
   multiline_template: |
     {{{unit}}}, {{{house_name}}}
@@ -148,6 +162,20 @@ IN:
     {{{state}}},
     {{{country}}}
 
+IT:
+  multiline_template: |
+    {{{unit}}}
+    {{{house_name}}}
+    {{{street_name}}} {{{street_number}}}
+    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}}
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}},
+    {{{house_name}}},
+    {{{street_name}}}, {{{street_number}}},
+    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}},
+    {{{country}}}
+
 LV:
   multiline_template: |
     {{{unit}}}
@@ -163,6 +191,22 @@ LV:
     {{{city}}},
     {{{postalcode}}},
     {{{state}}},
+    {{{country}}}
+
+MY:
+  multiline_template: |
+    {{{unit}}}, {{{house_name}}}
+    {{{street_number}}} {{{street_name}}} 
+    {{{locality}}}
+    {{{city}}}
+    {{{postalcode}}} {{{state}}} 
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}}, {{{house_name}}},
+    {{{street_number}}}, {{{street_name}}}, 
+    {{{locality}}},
+    {{{city}}},
+    {{{postalcode}}} {{{state}}},
     {{{country}}}
 
 NZ:
@@ -217,6 +261,20 @@ PH:
     {{{postalcode}}} {{{state}}},
     {{{country}}}
 
+PT:
+  multiline_template: |
+    {{{unit}}}
+    {{{house_name}}}
+    {{{street_name}}} {{{street_number}}}
+    {{{postalcode}}} {{{city}}} 
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}},
+    {{{house_name}}},
+    {{{street_name}}} {{{street_number}}},
+    {{{postalcode}}} {{{city}}},
+    {{{country}}}
+
 # From singapore post
 SG:
   multiline_template: |
@@ -231,6 +289,22 @@ SG:
     {{{locality}}},
     {{{country}}} {{{postalcode}}}
 
+TH:
+  multiline_template: |
+    {{{unit}}} {{{house_name}}}
+    {{{street_number}}} {{{street_name}}}
+    {{{locality}}}
+    {{{city}}}
+    {{{postalcode}}}
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}}, {{{house_name}}},
+    {{{street_number}}} {{{street_name}}},
+    {{{locality}}},
+    {{{city}}},
+    {{{postalcode}}},
+    {{{country}}}
+
 # Use locality if available. If not, default to city.
 US:
   multiline_template: |
@@ -243,5 +317,19 @@ US:
     {{{street_number}}} {{{street_name}}},
     {{{unit}}},
     {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}}, 
+    {{{state}}} {{{postalcode}}},
+    {{{country}}}
+
+VN:
+  multiline_template: |
+    {{{unit}}}, {{{house_name}}}
+    {{{street_number}}}, {{{street_name}}} 
+    {{{locality}}}, {{{city}}}
+    {{{state}}} {{{postalcode}}}
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}}, {{{house_name}}},
+    {{{street_number}}}, {{{street_name}}}, 
+    {{{locality}}}, {{{city}}},
     {{{state}}} {{{postalcode}}},
     {{{country}}}
