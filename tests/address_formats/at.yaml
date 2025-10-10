@@ -1,0 +1,15 @@
+# Austria
+---
+- description: Building in Austria
+  components:
+    street_number: "15"
+    street_name: Kröllgasse
+    postalcode: "1150"
+    city: "Wien"
+    country: "Austria"
+  expected_multiline: |
+    Kröllgasse 15
+    1150 Wien
+    Austria
+  expected_singleline: >
+    Kröllgasse 15, 1150 Wien, Austria
