@@ -1,0 +1,50 @@
+# Hong Kong
+---
+- description: Hong Kong City with Country
+  components:
+    country: 香港 
+    state: 香港島
+    county: 灣仔
+    street_name: 堅尼地道
+    street_number: 105號
+    house_name: 雅佳大廈
+    unit: 12樓25室
+  expected_multiline: |
+    香港
+    香港島
+    灣仔
+    堅尼地道105號
+    雅佳大廈12樓25室
+  expected_singleline: >
+    香港香港島灣仔堅尼地道105號雅佳大廈12樓25室
+
+- description: Hong Kong City without Country
+  components:
+    state: 香港島
+    county: 灣仔
+    street_name: 堅尼地道
+    street_number: 105號
+    house_name: 雅佳大廈
+    unit: 12樓25室
+  expected_multiline: |
+    香港島
+    灣仔
+    堅尼地道105號
+    雅佳大廈12樓25室
+  expected_singleline: >
+    香港島灣仔堅尼地道105號雅佳大廈12樓25室
+
+- description: Hong Kong Rural without Country
+  components:
+    state: 香港島
+    county: 灣仔
+    city: 堅尼地道
+    house_name: 雅佳大廈
+    unit: 12樓25室
+  expected_multiline: |
+    香港島
+    灣仔
+    堅尼地道
+    雅佳大廈12樓25室
+  expected_singleline: >
+    香港島灣仔堅尼地道雅佳大廈12樓25室

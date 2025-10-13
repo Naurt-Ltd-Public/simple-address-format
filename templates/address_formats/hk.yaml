@@ -1,0 +1,10 @@
+HK:
+  multiline_template: |
+    {{#country}}{{{country}}}{{/country}}
+    {{{state}}}
+    {{{county}}}
+    {{#street_name}}{{{street_name}}}{{{street_number}}}{{/street_name}}
+    {{#city}}{{{city}}}{{/city}}
+    {{{house_name}}}{{#unit}}{{{unit}}}{{/unit}}
+  singleline_template: >
+    {{#country}}{{{country}}}{{/country}}{{{state}}}{{{county}}}{{#street_name}}{{{street_name}}}{{{street_number}}}{{/street_name}}{{#city}}{{{city}}}{{/city}}{{{house_name}}}{{#unit}}{{{unit}}}{{/unit}}
