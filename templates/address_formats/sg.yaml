@@ -1,0 +1,13 @@
+# From singapore post
+SG:
+  multiline_template: |
+    {{{street_number}}} {{{street_name}}}
+    {{{unit}}} {{{house_name}}}
+    {{{locality}}}
+    {{{country}}} {{{postalcode}}}
+  singleline_template: >
+    {{{street_number}}} {{{street_name}}},
+    {{{unit}}},
+    {{{house_name}}},
+    {{{locality}}},
+    {{{country}}} {{{postalcode}}}

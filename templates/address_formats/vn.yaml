@@ -1,0 +1,13 @@
+VN:
+  multiline_template: |
+    {{{unit}}}, {{{house_name}}}
+    {{{street_number}}}, {{{street_name}}} 
+    {{{locality}}}, {{{city}}}
+    {{{state}}} {{{postalcode}}}
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}}, {{{house_name}}},
+    {{{street_number}}}, {{{street_name}}}, 
+    {{{locality}}}, {{{city}}},
+    {{{state}}} {{{postalcode}}},
+    {{{country}}}

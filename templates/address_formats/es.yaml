@@ -1,0 +1,15 @@
+ES:
+  multiline_template: |
+    {{{house_name}}}
+    {{{street_name}}}, {{{street_number}}}
+    {{{unit}}}
+    {{{locality}}}
+    {{{postalcode}}} {{{city}}} 
+    {{{country}}}
+  singleline_template: >
+    {{{house_name}}},
+    {{{street_name}}}, {{{street_number}}},
+    {{{unit}}},
+    {{{locality}}},
+    {{{postalcode}}} {{{city}}},
+    {{{country}}}
