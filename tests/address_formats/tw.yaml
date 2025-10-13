@@ -1,0 +1,31 @@
+# Taiwan
+---
+- description: Taiwan with country
+  components:
+    postalcode: 100065
+    country: 台灣
+    city: 臺北市
+    county: 中正區
+    street_name: 忠孝西路
+    street_number: 一段120號
+    house_name: 中華郵政公司
+  expected_multiline: |
+    100065
+    臺北市中正區忠孝西路一段120號中華郵政公司
+    台灣
+  expected_singleline: >
+    100065臺北市中正區忠孝西路一段120號中華郵政公司台灣
+
+- description: Taiwan without country
+  components:
+    postalcode: 100065
+    city: 臺北市
+    county: 中正區
+    street_name: 忠孝西路
+    street_number: 一段120號
+    house_name: 中華郵政公司
+  expected_multiline: |
+    100065
+    臺北市中正區忠孝西路一段120號中華郵政公司
+  expected_singleline: >
+    100065臺北市中正區忠孝西路一段120號中華郵政公司

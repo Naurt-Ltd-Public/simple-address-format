@@ -1,0 +1,7 @@
+TW:
+  multiline_template: |
+    {{postalcode}} 
+    {{{city}}}{{{county}}}{{{street_name}}}{{{street_number}}}{{#house_name}}{{{house_name}}}{{/house_name}}{{#unit}}{{{unit}}}{{/unit}}
+    {{#country}}{{{country}}}{{/country}}
+  singleline_template: >
+    {{postalcode}}{{{city}}}{{{county}}}{{{street_name}}}{{{street_number}}}{{#house_name}}{{{house_name}}}{{/house_name}}{{#unit}}{{{unit}}}{{/unit}}{{#country}}{{{country}}}{{/country}}
