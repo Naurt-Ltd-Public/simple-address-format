@@ -1,0 +1,18 @@
+# Belgium
+---
+- description: Basic Antwerp Address
+  components:
+    unit: App 150Z
+    street_number: 22
+    street_name: Alfred Nobellaan
+    city: Antwerpen
+    postalcode: 2660
+    state: AN
+    country: BEL
+  expected_multiline: |
+    Alfred Nobellaan 22
+    App 150Z
+    2660 Antwerpen, AN
+    BEL
+  expected_singleline: >
+    Alfred Nobellaan 22, App 150Z, 2660 Antwerpen, AN, BEL

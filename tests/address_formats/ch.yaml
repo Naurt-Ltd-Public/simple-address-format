@@ -1,0 +1,17 @@
+# Switzerland
+---
+- description: Basic Geneva Address
+  components:
+    unit: Ap. 12
+    street_number: 16
+    street_name: Chemin De Velours
+    city: Genève
+    postalcode: 1231
+    country: CHE
+  expected_multiline: |
+    Ap. 12
+    Chemin Du Velours 16
+    1231 Genève
+    CHE
+  expected_singleline: >
+    Ap. 12, Chemin Du Velours 16, 1231 Genève, CHE

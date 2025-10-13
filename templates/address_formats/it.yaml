@@ -1,0 +1,13 @@
+IT:
+  multiline_template: |
+    {{{unit}}}
+    {{{house_name}}}
+    {{{street_name}}} {{{street_number}}}
+    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}}
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}},
+    {{{house_name}}},
+    {{{street_name}}}, {{{street_number}}},
+    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}},
+    {{{country}}}

@@ -1,0 +1,14 @@
+# Use locality if available. If not, default to city.
+US:
+  multiline_template: |
+    {{{house_name}}}
+    {{{street_number}}} {{{street_name}}} {{{unit}}}
+    {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}} {{{postalcode}}}
+    {{{country}}}
+  singleline_template: >
+    {{{house_name}}},
+    {{{street_number}}} {{{street_name}}},
+    {{{unit}}},
+    {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}}, 
+    {{{state}}} {{{postalcode}}},
+    {{{country}}}

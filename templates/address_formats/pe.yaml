@@ -1,0 +1,17 @@
+PE:
+  multiline_template: |
+    {{{house_name}}}
+    {{{street_name}}} {{{street_number}}}
+    {{{unit}}}
+    {{{locality}}}
+    {{{city}}} {{{postalcode}}}
+    {{{state}}}
+    {{{country}}}
+  singleline_template: >
+    {{{house_name}}},
+    {{{street_name}}} {{{street_number}}},
+    {{{unit}}},
+    {{{locality}}},
+    {{{city}}} {{{postalcode}}},
+    {{{state}}},
+    {{{country}}}

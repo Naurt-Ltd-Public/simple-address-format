@@ -1,0 +1,16 @@
+LV:
+  multiline_template: |
+    {{{unit}}}
+    {{{street_name}}} {{{street_number}}}, {{{house_name}}} 
+    {{{locality}}}
+    {{{city}}}, {{{postalcode}}}
+    {{{state}}}
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}},
+    {{{street_name}}} {{{street_number}}}, {{{house_name}}},
+    {{{locality}}},
+    {{{city}}},
+    {{{postalcode}}},
+    {{{state}}},
+    {{{country}}}

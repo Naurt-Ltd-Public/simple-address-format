@@ -1,0 +1,28 @@
+# From Royal mail
+GB:
+  multiline_template: |
+    {{{unit}}}
+    {{{house_name}}}
+    {{{street_number}}} {{{street_name}}}
+    {{{locality}}}
+    {{{city}}}
+    {{{postalcode}}}
+    {{#country}}
+    {{{country}}}
+    {{/country}}
+    {{^country}}
+    {{{state}}}
+    {{/country}}
+  singleline_template: >
+    {{{unit}}},
+    {{{house_name}}},
+    {{{street_number}}} {{{street_name}}},
+    {{{locality}}},
+    {{{city}}},
+    {{{postalcode}}},
+    {{#country}}
+    {{{country}}}
+    {{/country}}
+    {{^country}}
+    {{{state}}}
+    {{/country}}

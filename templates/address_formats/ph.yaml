@@ -1,0 +1,17 @@
+# https://en.wikipedia.org/wiki/Address#Philippines
+PH:
+  multiline_template: |
+    {{{unit}}}
+    {{{house_name}}}
+    {{{street_number}}} {{{street_name}}}, {{{locality}}}
+    {{{city}}}
+    {{{postalcode}}} {{{state}}}
+    {{{country}}}
+  singleline_template: >
+    {{{unit}}},
+    {{{house_name}}}, 
+    {{{street_number}}} {{{street_name}}},
+    {{{locality}}},
+    {{{city}}},
+    {{{postalcode}}} {{{state}}},
+    {{{country}}}
