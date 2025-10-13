@@ -1,6 +1,8 @@
 CH:
   multiline_template: |
+    {{#unit}}
     {{{unit}}}
+    {{/unit}}
     {{{street_name}}} {{{street_number}}} 
     {{{postalcode}}} {{{city}}}
     {{#country}}

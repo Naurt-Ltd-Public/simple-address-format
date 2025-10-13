@@ -1,0 +1,11 @@
+JP:
+  multiline_template: |
+    〒{{{postalcode}}}
+    {{{state}}}{{{city}}}{{{locality}}}{{{street_number}}}{{#unit}}{{{unit}}}{{/unit}}
+    {{#house_name}}{{{house_name}}}{{/house_name}}
+    {{#country}}{{{country}}}{{/country}}
+  singleline_template: >
+    〒{{{postalcode}}}
+    {{{state}}}{{{city}}}{{{locality}}}{{{street_number}}}{{#unit}}{{{unit}}}{{/unit}}
+    {{#house_name}}{{{house_name}}}{{/house_name}}
+    {{#country}}{{{country}}}{{/country}}
