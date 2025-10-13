@@ -1,0 +1,15 @@
+BE:
+  multiline_template: |
+    {{{street_name}}} {{{street_number}}} 
+    {{{unit}}}
+    {{{postalcode}}} {{{city}}}, {{{state}}}
+    {{#country}}
+    {{{country}}}
+    {{/country}}
+  singleline_template: >
+    {{{street_name}}} {{{street_number}}},
+    {{{unit}}},
+    {{{postalcode}}} {{{city}}}, {{{state}}},
+    {{#country}}
+    {{{country}}}
+    {{/country}}
