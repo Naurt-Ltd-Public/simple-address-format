@@ -1,17 +1,13 @@
 NL:
   multiline_template: |
-    {{#unit}}
-    {{{unit}}}
-    {{/unit}}
+    {{#unit}}{{{unit}}}{{/unit}}
     {{{street_name}}} {{{street_number}}} 
     {{{postalcode}}} {{{city}}}
     {{#country}}
     {{{country}}}
     {{/country}}
   singleline_template: >
-    {{#unit}}
-    {{{unit}}},
-    {{/unit}}
+    {{#unit}}{{{unit}}},{{/unit}}
     {{{street_name}}} {{{street_number}}},
     {{{postalcode}}} {{{city}}},
     {{#country}}

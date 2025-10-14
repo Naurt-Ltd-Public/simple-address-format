@@ -4,16 +4,14 @@ BE:
     {{#unit}}
     {{{unit}}}
     {{/unit}}
-    {{{postalcode}}} {{{city}}}, {{{state}}}
+    {{{postalcode}}} {{{city}}}{{#state}}, {{{state}}}{{/state}}
     {{#country}}
     {{{country}}}
     {{/country}}
   singleline_template: >
     {{{street_name}}} {{{street_number}}},
-    {{#unit}}
-    {{{unit}}},
-    {{/unit}}
-    {{{postalcode}}} {{{city}}}, {{{state}}},
+    {{#unit}}{{{unit}}},{{/unit}}
+    {{{postalcode}}} {{{city}}}{{#state}}, {{{state}}},{{/state}}
     {{#country}}
     {{{country}}}
     {{/country}}
