@@ -1,0 +1,10 @@
+FI:
+  multiline_template: |
+    {{#house_name}}{{{house_name}}}{{/house_name}}
+    {{#street_name}}{{{street_name}}} {{{street_number}}}{{/street_name}}
+    {{{postalcode}}} {{{city}}}
+    {{#country}}{{{country}}}{{/country}}
+  singleline_template: >
+    {{#house_name}}{{{house_name}}},{{/house_name}}
+    {{#street_name}}{{{street_name}}} {{{street_number}}},{{/street_name}}
+    {{{postalcode}}} {{{city}}}{{#country}}, {{{country}}}{{/country}}
