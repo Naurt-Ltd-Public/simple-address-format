@@ -5,7 +5,7 @@ IE:
     {{#street_number}}{{{street_number}}} {{{street_name}}}{{/street_number}}
     {{#locality}}{{{locality}}}{{/locality}}
     {{{city}}}
-    {{{county}}
+    {{{county}}}
     {{{postalcode}}}
     {{#country}}{{{country}}}{{/country}}
   singleline_template: >
@@ -14,6 +14,6 @@ IE:
     {{#street_number}}{{{street_number}}} {{{street_name}}},{{/street_number}}
     {{#locality}}{{{locality}}},{{/locality}}
     {{{city}}},
-    {{{county}},
+    {{{county}}},
     {{{postalcode}}}
     {{#country}}, {{{country}}}{{/country}}
