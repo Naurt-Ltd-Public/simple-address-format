@@ -4,8 +4,8 @@
   components:
     house_name: Galleri Nina Sampson
     street_name: Dag Hammarkjölds Allé
-    street_number: 42B
-    postalcode: 2100
+    street_number: "42B"
+    postalcode: "2100"
     city: København Ø
   expected_multiline: |
     Galleri Nina Sampson
