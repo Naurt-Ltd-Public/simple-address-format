@@ -1,0 +1,16 @@
+# Greece
+---
+- description: Standard Greek address
+  components:
+    street_name: D. Gounari Street
+    street_number: 1
+    postalcode: 151 24
+    city: Marousi
+    country: Greece
+  expected_multiline: |
+    1, D. Gounari Street
+    151 24 Marousi
+    Greece
+  expected_singleline: >
+    1, D. Gounari Street, 151 24 Marousi, Greece
+
