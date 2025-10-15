@@ -1,0 +1,10 @@
+MX:
+  multiline_template: |
+    {{{street_name}}} {{{street_number}}}{{#unit}} - {{{unit}}}{{/unit}}
+    {{{locality}}}
+    {{{postalcode}}} {{{city}}}, {{{state}}}
+    {{#country}}{{{country}}}{{/country}}
+  singleline_template: >
+    {{{street_name}}} {{{street_number}}}{{#unit}} - {{{unit}}},{{/unit}}{{^unit}},{{/unit}}
+    {{{locality}}},
+    {{{postalcode}}} {{{city}}}, {{{state}}}{{#country}}, {{{country}}}{{/country}}

@@ -1,0 +1,36 @@
+# Mexico
+---
+- description: Mexican standard address
+  components:
+    street_number: 30
+    street_name: Urión
+    postalcode: 02860
+    locality: Col. Tlatilco
+    city: Mexico
+    state: CDMX
+    country: Mexico
+  expected_multiline: |
+    Urión 30
+    Col. Tlatilco
+    02860 Mexico, CDMX
+    Mexico
+  expected_singleline: >
+    Urión 30, Col. Tlatilco, 02860 Mexico, CDMX, Mexico
+
+- description: Mexican address with unit
+  components:
+    unit: 403
+    street_number: 3
+    street_name: Super Manzana
+    postalcode: 77520
+    locality: Puerto Juarez
+    city: Cancun
+    state: Q. Roo
+    country: Mexico
+  expected_multiline: |
+    Super Manzana 3 - 403
+    Puerto Juarez
+    77520 Cancun, Q. Roo
+    Mexico
+  expected_singleline: >
+    Super Manzana 3 - 403, Puerto Juarez, 77520 Cancun, Q. Roo, Mexico
