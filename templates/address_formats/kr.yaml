@@ -1,11 +1,10 @@
 KR:
   multiline_template: |
     {{#country}}{{{country}}}{{/country}}
-    {{{city}}} {{{county}}} {{{street_name}}} {{{street_number}}}
+    {{#state}}{{{state}}} {{/state}}{{{city}}} {{{locality}}} {{{street_name}}} {{{street_number}}}
     {{#unit}}{{{unit}}}{{/unit}}
     {{{postalcode}}} 
   singleline_template: >
     {{#country}}{{{country}}}{{/country}}
-    {{{city}}} {{{county}}} {{{street_name}}} {{{street_number}}}
-    {{#unit}}{{{unit}}}{{/unit}}
+    {{#state}}{{{state}}} {{/state}}{{{city}}} {{{locality}}} {{{street_name}}} {{{street_number}}}{{#unit}} {{{unit}}}{{/unit}}
     {{{postalcode}}} 

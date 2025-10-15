@@ -1,10 +1,10 @@
 # Korea, Republic of
 ---
-- description: South Korean standard address
+- description: South Korean standard address without state
   components:
     street_number: 23
     street_name: 사직로3길
-    county: 종로구
+    locality: 종로구
     city: 서울특별시
     unit: 102동 304호
     postalcode: 30174
@@ -16,3 +16,32 @@
     30174 
   expected_singleline: >
     대한민국 서울특별시 종로구 사직로3길 23 102동 304호 30174 
+
+- description: South Korean address with state and country
+  components:
+    street_number: 279
+    street_name: 산성대로
+    locality: 신흥동
+    city: 성남시 수정구
+    state: 경기도
+    postalcode: 13353
+    country: 대한민국
+  expected_multiline: |
+    대한민국
+    경기도 성남시 수정구 신흥동 산성대로 279
+    13353
+  expected_singleline: >
+    대한민국 경기도 성남시 수정구 신흥동 산성대로 279 13353
+
+- description: South Korean address without state and country
+  components:
+    street_number: 279
+    street_name: 산성대로
+    locality: 신흥동
+    city: 성남시 수정구
+    postalcode: 13353
+  expected_multiline: |
+    성남시 수정구 신흥동 산성대로 279
+    13353
+  expected_singleline: >
+    성남시 수정구 신흥동 산성대로 279 13353
