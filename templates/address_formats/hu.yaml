@@ -1,0 +1,11 @@
+HU:
+  multiline_template: |
+    {{{city}}}
+    {{{street_name}}} {{{street_number}}} {{#unit}}{{{unit}}}{{/unit}}
+    {{{postalcode}}}
+    {{#country}}{{{country}}}{{/country}}
+  singleline_template: >
+    {{{city}}},
+    {{{street_name}}} {{{street_number}}}{{#unit}} {{{unit}}},{{/unit}}{{^unit}},{{/unit}}
+    {{{postalcode}}},
+    {{#country}}{{{country}}}{{/country}}

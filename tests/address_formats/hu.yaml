@@ -1,0 +1,16 @@
+# Hungary
+---
+- description: Hungary standard address
+  components:
+    city: Budapest
+    street_name: Valami utca
+    street_number: 18.
+    postalcode: 1145
+    country: Hungary
+  expected_multiline: |
+    Budapest
+    Valami utca 18.
+    1145
+    Hungary 
+  expected_singleline: >
+    Budapest, Valami utca 18., 1145, Hungary 
