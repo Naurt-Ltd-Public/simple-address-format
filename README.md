@@ -28,6 +28,56 @@ United Kingdom
 Flat 4, Challenger Court, 49 Wallis Avenue, Maidstone, ME15 9HS, United Kingdom
 ```
 
+## Coverage
+
+![Simple Address Coverage](coverage.png)
+
+We currently support the following countries and territories
+
+- Austria
+- Australia
+- Belgium
+- Brazil
+- Canada
+- Switzerland
+- Cyprus
+- Czechia
+- Germany
+- Denmark
+- Denmark
+- Estonia
+- Spain
+- Finland
+- France
+- United Kingdom
+- Greece
+- Hong Kong
+- Hungary
+- Indonesia
+- Ireland
+- India
+- Italy
+- Japan
+- Korea, Republic of. (South Korea)
+- Lithuania
+- Latvia
+- Mexico
+- Malaysia
+- Netherlands
+- Norway
+- New Zealand
+- Peru
+- Philippines
+- Poland
+- Portugal
+- Sweden
+- Singapore
+- Slovakia
+- Thailand
+- Taiwan
+- USA
+- Vietnam
+
 ## Why is this necessary?
 
 Address formats vary from country to country. In Peru street numbers are written after the street name whereas, in the US and UK, they're written before the street name. In the US a unit (flat, apartment, floor, etc.) is written after
@@ -66,7 +116,7 @@ us to unify the way we parse, search for, store, and display our addresses acros
 
 ### Implementations
 
-Following on from the OpenCage model, this repository contains only templates written in [mustache](https://mustache.github.io/) with some test cases. The templates are stored in [YAML](https://www.redhat.com/en/topics/automation/what-is-yaml) with countries denoted by their [two letter ISO](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code.
+Following on from the OpenCage model, this repository contains only templates written in [mustache](https://mustache.github.io/) with some test cases. The templates are stored in [YAML](https://www.anbowell.com/blog/the-developers-guide-to-yaml/) with countries denoted by their [two letter ISO](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code.
 This enables the templates to be implemented in any programming language required, by anybody. We provide a Rust library, [simple-address-formatter](https://github.com/Naurt-Ltd-Public/simple-delivery-address-rs), as an example implementation.
 
 - **Rust**: [simple-address-formatter](https://github.com/Naurt-Ltd-Public/simple-delivery-address-rs)
