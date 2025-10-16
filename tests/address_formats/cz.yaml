@@ -1,0 +1,16 @@
+# Czechia
+---
+- description: Standard Czechia address
+  components:
+    street_name: Ladova
+    street_number: 3/64
+    postalcode: 251 66
+    city: Hrusice
+    country: Czechia
+  expected_multiline: |
+    Ladova 3/64
+    251 66 Hrusice
+    Czechia
+  expected_singleline: >
+    Ladova 3/64, 251 66 Hrusice, Czechia
+

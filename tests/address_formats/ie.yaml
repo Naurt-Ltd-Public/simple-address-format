@@ -1,0 +1,47 @@
+# Ireland
+---
+- description: Ireland standard address
+  components:
+    street_number: 56
+    street_name: Broomfield
+    city: Macroom
+    postalcode: T37 F8HK
+    county: Co. Cork
+    country: Ireland
+  expected_multiline: |
+    56 Broomfield
+    Macroom
+    Co. Cork
+    T37 F8HK
+    Ireland
+  expected_singleline: >
+    56 Broomfield, Macroom, Co. Cork, T37 F8HK, Ireland
+
+- description: Ireland standard address without country
+  components:
+    street_number: 56
+    street_name: Broomfield
+    city: Macroom
+    postalcode: T37 F8HK
+    county: Co. Cork
+  expected_multiline: |
+    56 Broomfield
+    Macroom
+    Co. Cork
+    T37 F8HK
+  expected_singleline: >
+    56 Broomfield, Macroom, Co. Cork, T37 F8HK
+
+- description: Ireland with house name only
+  components:
+    house_name: Ballinroamin
+    city: Thurles
+    postalcode: A65 TF12
+    county: Co. Cork
+  expected_multiline: |
+    Ballinroamin
+    Thurles
+    Co. Cork
+    A65 TF12
+  expected_singleline: >
+    Ballinroamin, Thurles, Co. Cork, A65 TF12

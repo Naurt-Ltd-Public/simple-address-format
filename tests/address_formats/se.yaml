@@ -1,0 +1,16 @@
+# Sweden
+---
+- description: Standard Swedish address
+  components:
+    street_name: Nyby
+    street_number: 10
+    postalcode: 123 45
+    city: Lillbyn
+    country: Sweden
+  expected_multiline: |
+    Nyby 10
+    123 45 Lillbyn
+    Sweden
+  expected_singleline: >
+    Nyby 10, 123 45 Lillbyn, Sweden
+

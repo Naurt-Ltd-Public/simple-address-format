@@ -1,0 +1,44 @@
+# Slovakia
+---
+- description: Slovakia standard address
+  components:
+    country: Slovakia 
+    street_name: Hrnčiarska
+    street_number: 28, č. p. 8
+    postalcode: 960 01
+    city: Zvolen
+  expected_multiline: |
+    Hrnčiarska 28, č. p. 8
+    960 01 Zvolen
+    Slovakia
+  expected_singleline: >
+    Hrnčiarska 28, č. p. 8, 960 01 Zvolen, Slovakia
+
+
+- description: Slovakia standard address without country
+  components:
+    street_name: Hrnčiarska
+    street_number: 28, č. p. 8
+    postalcode: 960 01
+    city: Zvolen
+  expected_multiline: |
+    Hrnčiarska 28, č. p. 8
+    960 01 Zvolen
+  expected_singleline: >
+    Hrnčiarska 28, č. p. 8, 960 01 Zvolen
+
+- description: Slovakia address with locality
+  components:
+    street_name: Malinovského
+    street_number: 4
+    locality: Vígľaš
+    postalcode: 962 12
+    city: Detva-Sídlisko
+    country: Slovakia
+  expected_multiline: |
+    Malinovského 4
+    Vígľaš
+    962 12 Detva-Sídlisko
+    Slovakia
+  expected_singleline: >
+    Malinovského 4, Vígľaš, 962 12 Detva-Sídlisko, Slovakia

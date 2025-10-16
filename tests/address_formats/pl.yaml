@@ -1,0 +1,16 @@
+# Poland
+---
+- description: Standard Danish Address
+  components:
+    street_number: 64
+    street_name: Aleja Juliusza Słowackiego
+    postalcode: 30-004
+    city: Kraków
+    country: Poland
+  expected_multiline: |
+    Aleja Juliusza Słowackiego 64
+    30-004 Kraków
+    Poland
+  expected_singleline: >
+    Aleja Juliusza Słowackiego 64, 30-004 Kraków, Poland
+

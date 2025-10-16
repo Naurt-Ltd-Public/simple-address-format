@@ -1,0 +1,16 @@
+# Cyrpus
+---
+- description: Standard Cyprus address
+  components:
+    street_name: Sofocleous
+    street_number: 26
+    postalcode: CY-2008
+    city: Strovolos
+    country: Cyprus
+  expected_multiline: |
+    Sofocleous 26
+    CY-2008 Strovolos
+    Cyprus
+  expected_singleline: >
+    Sofocleous 26, CY-2008 Strovolos, Cyprus
+

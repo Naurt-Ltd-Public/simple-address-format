@@ -1,0 +1,33 @@
+# Japan
+---
+- description: JP Tokyo postoffice
+  components:
+    house_name: 東京中央郵便局
+    street_number: 二丁目7番2号
+    locality: 丸ノ内
+    city: 千代田区
+    state: 東京都
+    postalcode: 〒100-8994
+  expected_multiline: |
+    〒100-8994
+    東京都千代田区丸ノ内二丁目7番2号
+    東京中央郵便局
+  expected_singleline: >
+    〒100-8994東京都千代田区丸ノ内二丁目7番2号東京中央郵便局
+
+- description: JP Tokyo postoffice with country
+  components:
+    house_name: 東京中央郵便局
+    street_number: 二丁目7番2号
+    locality: 丸ノ内
+    city: 千代田区
+    state: 東京都
+    postalcode: 〒100-8994
+    country: 日本
+  expected_multiline: |
+    〒100-8994
+    東京都千代田区丸ノ内二丁目7番2号
+    東京中央郵便局
+    日本
+  expected_singleline: >
+    〒100-8994東京都千代田区丸ノ内二丁目7番2号東京中央郵便局日本

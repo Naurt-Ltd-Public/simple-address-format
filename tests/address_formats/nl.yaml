@@ -1,0 +1,31 @@
+# Netherlands
+---
+- description: NL No Unit
+  components:
+    street_number: 5-1
+    street_name: Drieslag
+    city: Arnhem
+    postalcode: 6832 AM
+    country: Netherlands
+  expected_multiline: |
+    Drieslag 5-1
+    6832 AM Arnhem
+    Netherlands
+  expected_singleline: >
+    Drieslag 5-1, 6832 AM Arnhem, Netherlands
+
+- description: NL With Unit
+  components:
+    unit: Afdeling 4B
+    street_number: 81-83
+    street_name: 2e Hugo de Grootstraat
+    city: Amsterdam
+    postalcode: 1052 MA
+    country: Netherlands
+  expected_multiline: |
+    Afdeling 4B
+    2e Hugo de Grootstraat 81-83
+    1052 MA Amsterdam
+    Netherlands
+  expected_singleline: >
+    Afdeling 4B, 2e Hugo de Grootstraat 81-83, 1052 MA Amsterdam, Netherlands

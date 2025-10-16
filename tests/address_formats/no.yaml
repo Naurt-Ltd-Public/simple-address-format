@@ -1,0 +1,16 @@
+# Norway
+---
+- description: Norway standard
+  components:
+    street_name: "Karl Johansgate"
+    street_number: "25 B"
+    postalcode: "0025"
+    city: "Oslo"
+    country: "Norway"
+  expected_multiline: |
+    Karl Johansgate 25 B
+    0025 Oslo
+    Norway
+  expected_singleline: >
+    Karl Johansgate 25 B, 0025 Oslo, Norway
+

@@ -1,0 +1,18 @@
+# Finland
+---
+- description: Finland standard
+  components:
+    house_name: Alko Kannelmäki
+    street_name: Hiomotie
+    street_number: 10a
+    postalcode: 00380
+    city: Helsinki
+    country: Finland
+  expected_multiline: |
+    Alko Kannelmäki
+    Hiomotie 10a
+    00380 Helsinki
+    Finland
+  expected_singleline: >
+    Alko Kannelmäki, Hiomotie 10a, 00380 Helsinki, Finland
+

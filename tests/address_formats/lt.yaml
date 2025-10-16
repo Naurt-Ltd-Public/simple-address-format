@@ -1,0 +1,45 @@
+# Lithuania
+---
+- description: Lithuania standard address
+  components:
+    street_name: Laisvės pr.
+    street_number: 40-12
+    postalcode: LT-04340
+    city: Vilnius
+    country: Lithuania
+  expected_multiline: |
+    Laisvės pr. 40-12
+    LT-04340 Vilnius
+    Lithuania
+  expected_singleline: >
+    Laisvės pr. 40-12, LT-04340 Vilnius, Lithuania
+
+
+- description: Lithuania address with locality
+  components:
+    street_name: Plento g.
+    street_number: 17-66
+    locality: Ariogala
+    postalcode: LT-60249
+    city: Raseiniu R. SAV.
+    country: Lithuania
+  expected_multiline: |
+    Plento g. 17-66
+    Ariogala
+    LT-60249 Raseiniu R. SAV.
+    Lithuania
+  expected_singleline: >
+    Plento g. 17-66, Ariogala, LT-60249 Raseiniu R. SAV., Lithuania
+
+- description: Lithuania address without street
+  components:
+    locality: Galinių k.
+    postalcode: LT-33264
+    city: Molétų R. SAV.
+    country: Lithuania
+  expected_multiline: |
+    Galinių k.
+    LT-33264 Molétų R. SAV.
+    Lithuania
+  expected_singleline: >
+    Galinių k., LT-33264 Molétų R. SAV., Lithuania
