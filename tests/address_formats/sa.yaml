@@ -1,0 +1,18 @@
+# Saudi Arabia
+---
+- description: "Test address at: 24.608, 46.74"
+  components:
+    street_number: "4063"
+    street_name: شارع وادي الغراره
+    locality: المنصورة
+    city: الرياض
+    postalcode: "12684"
+    country: السعودية
+  expected_multiline: |
+    شارع وادي الغراره 4063,
+    المنصورة,
+    الرياض,
+    12684,
+    السعودية
+  expected_singleline: >
+   السعودية, 12684, الرياض, المنصورة, شارع وادي الغراره 4063

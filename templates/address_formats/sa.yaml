@@ -1,0 +1,16 @@
+SA:
+  multiline_template: |
+    {{{unit}}},
+    {{{street}}} {{{street_number}}},
+    {{{locality}}},
+    {{{city}}},
+    {{{postalcode}}},
+    {{{country}}}
+
+  singleline_template: >
+    {{{unit}}},
+    {{{street}}} {{{street_number}}},
+    {{{locality}}},
+    {{{city}}},
+    {{{postalcode}}},
+    {{{country}}}
