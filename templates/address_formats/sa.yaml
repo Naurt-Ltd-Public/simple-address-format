@@ -1,7 +1,7 @@
 SA:
   multiline_template: |
     {{{unit}}},
-    {{{street_number}}} {{{street}}},
+    {{{street_number}}} {{{street_name}}},
     {{{locality}}},
     {{{city}}},
     {{{postalcode}}},
@@ -9,7 +9,7 @@ SA:
 
   singleline_template: >
     {{{unit}}},
-    {{{street_number}}} {{{street}}},
+    {{{street_number}}} {{{street_name}}},
     {{{locality}}},
     {{{city}}},
     {{{postalcode}}},
