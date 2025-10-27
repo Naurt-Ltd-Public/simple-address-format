@@ -1,0 +1,11 @@
+AE:
+  multiline_template: |
+    {{{unit}}}
+    {{{street_name}}} {{{street_number}}}
+    {{{locality}}}
+    {{{city}}}
+    {{{postalcode}}}
+    {{{country}}}
+
+  singleline_template: >
+    {{{country}}}, {{{postalcode}}}, {{{city}}}, {{{locality}}}, {{{street_name}}} {{{street_number}}}, {{{unit}}}
