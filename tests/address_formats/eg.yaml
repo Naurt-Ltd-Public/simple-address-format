@@ -1,0 +1,24 @@
+# Egypt
+---
+- description: "Test address at: 29.148, 31.127"
+  components:
+    street_number: "29"
+    street_name: "شارع الثورة"
+    locality: "ناصر"
+    city: "ناصر"
+    country: "مصر"
+  expected_multiline: |
+    شارع الثورة 29
+    ناصر
+    ناصر
+    مصر
+  expected_singleline: >
+    مصر, ناصر, ناصر, شارع الثورة 29
+
+
+
+
+
+
+
+
