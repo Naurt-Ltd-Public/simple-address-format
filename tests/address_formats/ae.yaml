@@ -2,17 +2,17 @@
 ---
 - description: "Test address at: 24.27417, 54.66104"
   components:
-    street_number: "3"
+    street_number: "4"
     street_name: "شارع 3"
     locality: "الوثبة الشمالية"
     city: "أبوظبي"
     postalcode: "24435"
     country: "الإمارات العربية المتحدة"
   expected_multiline: |
-    شارع 3 3
+    شارع 3 4
     الوثبة الشمالية
     أبوظبي
     24435
     الإمارات العربية المتحدة
   expected_singleline: >
-    الإمارات العربية المتحدة, 24435, أبوظبي, الوثبة الشمالية, شارع 3 3
+    4 شارع 3، الوثبة الشمالية، أبوظبي، 24435، الإمارات العربية المتحدة
