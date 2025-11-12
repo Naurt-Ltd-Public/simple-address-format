@@ -1,4 +1,4 @@
-AE_GB:
+AE_EN:
   multiline_template: |
     {{#unit}}{{{unit}}}{{/unit}}
     {{#house_name}}{{{house_name}}}{{/house_name}}
