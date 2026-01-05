@@ -12,7 +12,7 @@
   expected_multiline: |
     Alfred Nobellaan 22
     App 150Z
-    2660 Antwerpen, AN
+    2660 Antwerpen
     BEL
   expected_singleline: >
-    Alfred Nobellaan 22, App 150Z, 2660 Antwerpen, AN, BEL
+    Alfred Nobellaan 22, App 150Z, 2660 Antwerpen, BEL
