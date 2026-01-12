@@ -1,0 +1,27 @@
+# Luxembourg
+---
+- description: Luxembourg city Ville-Haute (locality) address
+  components:
+    street_name: Rue Notre Dame
+    locality: Ville-Haute
+    postalcode: 2240
+    country: Luxembourg
+  expected_multiline: |
+    Rue Notre Dame
+    2240
+    Ville-Haute Luxembourg
+  expected_singleline: >
+    Rue Notre Dame, 2240, Ville-Haute Luxembourg
+- description: Luxembourg countryside address
+  components:
+    street_number: 6
+    street_name: Mnt du Château
+    city: Clervaux
+    postalcode: 9712
+    country: Luxembourg
+  expected_multiline: |
+    6 Mnt du Château
+    9712 Clervaux
+    Luxembourg
+  expected_singleline: >
+    6 Mnt du Château, 9712 Clervaux, Luxembourg

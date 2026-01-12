@@ -34,50 +34,6 @@ Flat 4, Challenger Court, 49 Wallis Avenue, Maidstone, ME15 9HS, United Kingdom
 
 We currently support the following countries and territories
 
-- Austria
-- Australia
-- Belgium
-- Brazil
-- Canada
-- Switzerland
-- Cyprus
-- Czechia
-- Germany
-- Denmark
-- Denmark
-- Estonia
-- Spain
-- Finland
-- France
-- United Kingdom
-- Greece
-- Hong Kong
-- Hungary
-- Indonesia
-- Ireland
-- India
-- Italy
-- Japan
-- Korea, Republic of. (South Korea)
-- Lithuania
-- Latvia
-- Mexico
-- Malaysia
-- Netherlands
-- Norway
-- New Zealand
-- Peru
-- Philippines
-- Poland
-- Portugal
-- Sweden
-- Singapore
-- Slovakia
-- Thailand
-- Taiwan
-- USA
-- Vietnam
-
 ## Why is this necessary?
 
 Address formats vary from country to country. In Peru street numbers are written after the street name whereas, in the US and UK, they're written before the street name. In the US a unit (flat, apartment, floor, etc.) is written after
