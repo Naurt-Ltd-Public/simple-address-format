@@ -1,0 +1,15 @@
+# Slovenia
+---
+- description: Ljublijana address
+  components:
+    street_name: Dolničarjeva ulica
+    city: Ljubljana
+    postalcode: 1000
+    country: Slovenia
+    street_number: 1
+  expected_multiline: |
+    Dolničarjeva ulica 1
+    1000 Ljubljana
+    Slovenia
+  expected_singleline: >
+    Dolničarjeva ulica 1, 1000 Ljubljana, Slovenia
