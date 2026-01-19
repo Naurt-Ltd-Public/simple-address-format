@@ -1,0 +1,22 @@
+# Default, used when we don't cover a country
+---
+- description: Building in UK (as an example)
+  components:
+    unit: Flat 4
+    house_name: Challenger Court
+    street_number: 49
+    street_name: Wallis Avenue
+    city: Maidstone
+    postalcode: ME15 9HS
+    state: England
+    country: United Kingdom
+  expected_multiline: |
+    Flat 4
+    Challenger Court
+    49 Wallis Avenue
+    Maidstone
+    ME15 9HS
+    England
+    United Kingdom
+  expected_singleline: >
+    Flat 4, Challenger Court, 49 Wallis Avenue, Maidstone, ME15 9HS, England, United Kingdom
