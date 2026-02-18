@@ -1,0 +1,19 @@
+# South Africa
+---
+- description: Building in 
+  components:
+    street_number: 11
+    street_name: Aloe Ct
+    locality: Kewtown
+    city: Cape Town
+    postalcode: 7764
+    country: South Africa
+  expected_multiline: |
+    11 Aloe Ct
+    Kewtown
+    Cape Town
+    7764
+    South Africa
+  expected_singleline: >
+    11 Aloe Ct, Kewtown, Cape Town, 7764, South Africa
+
