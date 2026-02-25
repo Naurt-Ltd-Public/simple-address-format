@@ -2,11 +2,11 @@ CA:
   multiline_template: |
     {{{house_name}}}
     {{{unit}}} {{{street_number}}} {{{street_name}}}
-    {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}} {{{postalcode}}}
+    {{^locality}}{{{city}}}{{/locality}}{{#locality}}{{{locality}}}{{/locality}} {{{state}}} {{{postalcode}}}
     {{{country}}}
   singleline_template: >
     {{{house_name}}},
     {{{unit}}} {{{street_number}}} {{{street_name}}},
-    {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}},
+    {{^locality}}{{{city}}}{{/locality}}{{#locality}}{{{locality}}}{{/locality}},
     {{{state}}} {{{postalcode}}},
     {{{country}}}
