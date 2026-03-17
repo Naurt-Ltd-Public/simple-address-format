@@ -3,7 +3,6 @@ BH_AR:
     {{#unit}}{{{unit}}}{{/unit}}
     {{#house_name}}{{{house_name}}}{{/house_name}}
     {{{street_name}}} {{{street_number}}}
-    {{{locality}}}
     {{{city}}}
     {{{postalcode}}}
     {{#country}}{{{country}}}{{/country}}
@@ -12,6 +11,5 @@ BH_AR:
     {{#unit}}{{{unit}}}، {{/unit}}
     {{#house_name}}{{{house_name}}}،{{/house_name}}
     {{{street_number}}} {{{street_name}}}،
-    {{{locality}}}،
     {{{city}}}،
     {{{postalcode}}}{{#country}}، {{{country}}}{{/country}}
