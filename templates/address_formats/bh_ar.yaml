@@ -14,4 +14,4 @@ BH_AR:
     {{{street_number}}} {{{street_name}}}،
     {{{locality}}}،
     {{{city}}}،
-    {{{postalcode}}}{{#country}}، {{{country}}}{{/country}
+    {{{postalcode}}}{{#country}}، {{{country}}}{{/country}}
