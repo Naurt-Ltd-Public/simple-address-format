@@ -9,7 +9,7 @@
     country: Romania
   expected_multiline: |
     Strada Inginer Nicolae Teodorescu 11
-    060208 Bucuresti
+    060208 București
     Romania
   expected_singleline: >
     Strada Inginer Nicolae Teodorescu 11, 060208 București, Romania
