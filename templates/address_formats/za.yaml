@@ -6,12 +6,13 @@ ZA:
     {{{locality}}}
     {{{city}}}
     {{{postalcode}}}
-    {{#country}}
-    {{{country}}}
-    {{/country}}
     {{^country}}
     {{{state}}}
     {{/country}}
+    {{#country}}
+    {{{country}}}
+    {{/country}}
+
   singleline_template: >
     {{{unit}}},
     {{{house_name}}},
@@ -19,9 +20,10 @@ ZA:
     {{{locality}}},
     {{{city}}},
     {{{postalcode}}},
-    {{#country}}
-    {{{country}}}
-    {{/country}}
     {{^country}}
     {{{state}}}
     {{/country}}
+    {{#country}}
+    {{{country}}}
+    {{/country}}
+

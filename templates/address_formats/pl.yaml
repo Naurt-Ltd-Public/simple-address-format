@@ -3,11 +3,11 @@ PL:
     {{#house_name}}{{{house_name}}}{{/house_name}}
     {{#unit}}{{{unit}}}{{/unit}}
     {{{street_name}}} {{{street_number}}}
-    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}}
+    {{{postalcode}}} {{^locality}}{{{city}}}{{/locality}}{{#locality}}{{{locality}}}{{/locality}}
     {{#country}}{{{country}}}{{/country}}
   singleline_template: >
     {{#house_name}}{{{house_name}}}{{/house_name}}
     {{#unit}}{{{unit}}}{{/unit}}
     {{{street_name}}} {{{street_number}}},
-    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}}{{#country}}, {{{country}}}{{/country}}
+    {{{postalcode}}} {{^locality}}{{{city}}}{{/locality}}{{#locality}}{{{locality}}}{{/locality}}{{#country}}, {{{country}}}{{/country}}
     

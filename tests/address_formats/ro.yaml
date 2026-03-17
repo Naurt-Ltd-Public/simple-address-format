@@ -1,0 +1,16 @@
+# Romania
+---
+- description: Standard Romanian Address
+  components:
+    street_number: 11
+    street_name: Strada Inginer Nicolae Teodorescu    
+    postalcode: 060208
+    city: București
+    country: Romania
+  expected_multiline: |
+    Strada Inginer Nicolae Teodorescu 11
+    060208 Bucuresti
+    Romania
+  expected_singleline: >
+    Strada Inginer Nicolae Teodorescu 11, 060208 București, Romania
+

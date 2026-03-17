@@ -3,11 +3,11 @@ FR:
     {{{unit}}}
     {{{house_name}}}
     {{{street_number}}} {{{street_name}}}
-    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}}
+    {{{postalcode}}} {{^locality}}{{{city}}}{{/locality}}{{#locality}}{{{locality}}}{{/locality}}
     {{{country}}}
   singleline_template: >
     {{{unit}}},
     {{{house_name}}},
     {{{street_number}}} {{{street_name}}},
-    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}},
+    {{{postalcode}}} {{^locality}}{{{city}}}{{/locality}}{{#locality}}{{{locality}}}{{/locality}},
     {{{country}}}

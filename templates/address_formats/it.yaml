@@ -3,11 +3,11 @@ IT:
     {{{unit}}}
     {{{house_name}}}
     {{{street_name}}} {{{street_number}}}
-    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}}
+    {{{postalcode}}} {{^locality}}{{{city}}}{{/locality}}{{#locality}}{{{locality}}}{{/locality}} {{{state}}}
     {{{country}}}
   singleline_template: >
     {{{unit}}},
     {{{house_name}}},
     {{{street_name}}}, {{{street_number}}},
-    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}},
+    {{{postalcode}}} {{^locality}}{{{city}}}{{/locality}}{{#locality}}{{{locality}}}{{/locality}} {{{state}}},
     {{{country}}}
