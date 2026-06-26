@@ -1,0 +1,19 @@
+
+# Bosnia and Herzegovina 
+---
+- description: Bosnia and Herzegovina standard address
+  components:
+    unit: "Flat 6"
+    street_number: "101"
+    street_name: Aleja Bosne Srebrene 
+    postalcode: 71000
+    city: Sarajevo
+    country: Bosnia & Herzegovina
+  expected_multiline: |
+    Aleja Bosne Srebrene 101
+    Flat 6
+    71000 Sarajevo
+    Bosnia & Herzegovina
+  expected_singleline: >
+    Aleja Bosne Srebrene 101, Flat 6, 71000 Sarajevo, Bosnia & Herzegovina
+    

@@ -1,0 +1,17 @@
+
+# Croatia 
+---
+- description: Croatia standard address
+  components:
+    unit: "Flat 6"
+    street_number: "15"
+    street_name: "Smiljanićeva ul."
+    postalcode: 21000
+    city: Split
+    country: Croatia
+  expected_multiline: |
+    Smiljanićeva ul. 15, Flat 6
+    21000 Split
+    Croatia
+  expected_singleline: >
+    Smiljanićeva ul. 15, Flat 6, 21000 Split, Croatia

@@ -1,0 +1,12 @@
+# Bulgaria
+BG:
+  multiline_template: |
+    {{{house_name}}} {{{unit}}}
+    {{{street_name}}} {{{street_number}}}
+    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}}
+    {{{country}}}
+  singleline_template: >
+    {{{house_name}}} {{{unit}}},
+    {{{street_name}}} {{{street_number}}}, 
+    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}},
+    {{{country}}}

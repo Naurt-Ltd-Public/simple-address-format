@@ -1,0 +1,10 @@
+# Croatia
+HR:
+  multiline_template: |
+    {{{street_name}}} {{{street_number}}}, {{{unit}}}
+    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}}
+    {{{country}}}
+  singleline_template: >
+    {{{street_name}}} {{{street_number}}}, {{{unit}}},
+    {{{postalcode}}} {{#locality}}{{{locality}}}{{/locality}}{{^locality}}{{{city}}}{{/locality}} {{{state}}},
+    {{{country}}}
