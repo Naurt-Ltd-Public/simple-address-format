@@ -12,6 +12,6 @@ QA_EN:
     {{#unit}}{{{unit}}}, {{/unit}}
     {{#house_name}}{{{house_name}}}, {{/house_name}}
     {{{street_number}}} {{{street_name}}}, 
-    {{{locality}}}, 
-    {{{city}}}, 
+    {{#locality}}{{{locality}}},{{/locality}}
+    {{#city}}{{{city}}},{{/city}}
     {{{postalcode}}}{{#country}}, {{{country}}}{{/country}}
