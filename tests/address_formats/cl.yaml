@@ -1,0 +1,52 @@
+# Chile
+---
+- description: Costanera Center, Santiago
+  components:
+    house_name: Costanera Center
+    street_name: Avenida Andrés Bello
+    street_number: "2425"
+    postalcode: "7510689"
+    city: Providencia
+    state: Región Metropolitana de Santiago
+    country: Chile
+  expected_multiline: |
+    Costanera Center
+    Avenida Andrés Bello, 2425
+    7510689 Providencia
+    Región Metropolitana de Santiago
+    Chile
+  expected_singleline: >
+    Costanera Center, Avenida Andrés Bello, 2425, 7510689 Providencia, Región Metropolitana de Santiago, Chile
+
+- description: Apartment in Las Condes
+  components:
+    street_name: Avenida Apoquindo
+    street_number: "4501"
+    unit: Depto. 1204
+    postalcode: "7580125"
+    city: Las Condes
+    state: Región Metropolitana de Santiago
+    country: CL
+  expected_multiline: |
+    Avenida Apoquindo, 4501
+    Depto. 1204
+    7580125 Las Condes
+    Región Metropolitana de Santiago
+    CL
+  expected_singleline: >
+    Avenida Apoquindo, 4501, Depto. 1204, 7580125 Las Condes, Región Metropolitana de Santiago, CL
+
+- description: Address in Valparaíso
+  components:
+    street_name: Avenida Pedro Montt
+    street_number: "1990"
+    city: Valparaíso
+    state: Región de Valparaíso
+    country: Chile
+  expected_multiline: |
+    Avenida Pedro Montt, 1990
+    Valparaíso
+    Región de Valparaíso
+    Chile
+  expected_singleline: >
+    Avenida Pedro Montt, 1990, Valparaíso, Región de Valparaíso, Chile

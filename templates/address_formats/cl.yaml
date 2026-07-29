@@ -1,0 +1,15 @@
+CL:
+  multiline_template: |
+    {{{house_name}}}
+    {{{street_name}}}, {{{street_number}}}
+    {{{unit}}}
+    {{{postalcode}}} {{{city}}} 
+    {{{state}}}
+    {{{country}}}
+  singleline_template: >
+    {{{house_name}}},
+    {{{street_name}}}, {{{street_number}}},
+    {{{unit}}},
+    {{{postalcode}}} {{{city}}},
+    {{{state}}},
+    {{{country}}}

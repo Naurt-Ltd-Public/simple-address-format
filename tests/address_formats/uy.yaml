@@ -1,0 +1,52 @@
+# Uruguay
+---
+- description: Palacio Salvo, Montevideo
+  components:
+    house_name: Palacio Salvo
+    street_name: Plaza Independencia
+    street_number: "848"
+    postalcode: "11100"
+    city: Montevideo
+    state: Montevideo
+    country: Uruguay
+  expected_multiline: |
+    Palacio Salvo
+    Plaza Independencia, 848
+    11100 Montevideo
+    Montevideo
+    Uruguay
+  expected_singleline: >
+    Palacio Salvo, Plaza Independencia, 848, 11100 Montevideo, Montevideo, Uruguay
+
+- description: Apartment in Punta Carretas
+  components:
+    street_name: José Ellauri
+    street_number: "1067"
+    unit: Apto. 402
+    postalcode: "11300"
+    city: Montevideo
+    state: Montevideo
+    country: UY
+  expected_multiline: |
+    José Ellauri, 1067
+    Apto. 402
+    11300 Montevideo
+    Montevideo
+    UY
+  expected_singleline: >
+    José Ellauri, 1067, Apto. 402, 11300 Montevideo, Montevideo, UY
+
+- description: Address in Punta del Este
+  components:
+    street_name: Avenida Gorlero
+    street_number: "950"
+    city: Punta del Este
+    state: Maldonado
+    country: Uruguay
+  expected_multiline: |
+    Avenida Gorlero, 950
+    Punta del Este
+    Maldonado
+    Uruguay
+  expected_singleline: >
+    Avenida Gorlero, 950, Punta del Este, Maldonado, Uruguay

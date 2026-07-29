@@ -1,0 +1,52 @@
+# Colombia
+---
+- description: Museo del Oro, Bogotá
+  components:
+    house_name: Museo del Oro
+    street_name: Carrera 6
+    street_number: 15-88
+    city: Bogotá
+    postalcode: "110321"
+    state: Bogotá D.C.
+    country: Colombia
+  expected_multiline: |
+    Museo del Oro
+    Carrera 6, 15-88
+    Bogotá 110321
+    Bogotá D.C.
+    Colombia
+  expected_singleline: >
+    Museo del Oro, Carrera 6, 15-88, Bogotá 110321, Bogotá D.C., Colombia
+
+- description: Apartment in Medellín
+  components:
+    street_name: Carrera 43A
+    street_number: 1-50
+    unit: Apto. 703
+    city: Medellín
+    postalcode: "050021"
+    state: Antioquia
+    country: CO
+  expected_multiline: |
+    Carrera 43A, 1-50
+    Apto. 703
+    Medellín 050021
+    Antioquia
+    CO
+  expected_singleline: >
+    Carrera 43A, 1-50, Apto. 703, Medellín 050021, Antioquia, CO
+
+- description: Address in Cartagena
+  components:
+    street_name: Calle de la Media Luna
+    street_number: 10-46
+    city: Cartagena de Indias
+    state: Bolívar
+    country: Colombia
+  expected_multiline: |
+    Calle de la Media Luna, 10-46
+    Cartagena de Indias
+    Bolívar
+    Colombia
+  expected_singleline: >
+    Calle de la Media Luna, 10-46, Cartagena de Indias, Bolívar, Colombia
