@@ -1,0 +1,15 @@
+# Iceland
+---
+- description: Building in Iceland
+  components:
+    street_number: "14"
+    street_name: Melgerði
+    postalcode: "108"
+    city: "Reykjavík"
+    country: "Iceland"
+  expected_multiline: |
+    Melgerði 14
+    108 Reykjavík
+    Iceland
+  expected_singleline: >
+    Melgerði 14, 108 Reykjavík, Iceland
