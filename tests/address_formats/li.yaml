@@ -1,0 +1,15 @@
+# Lichtenstein 
+---
+- description: 
+  components:
+    street_number: 16
+    street_name: Krüzgass
+    city: Schaan
+    postalcode: 9494
+    country: Liechtenstein
+  expected_multiline: |
+    Krüzgass 16
+    9494 Schaan
+    Liechtenstein
+  expected_singleline: >
+    Krüzgass 16, 9494 Schaan, Liechtenstein
