@@ -1,0 +1,15 @@
+# Monaco
+---
+- description: Building in Monaco
+  components:
+    street_number: "71"
+    street_name: Jardin Exotique 
+    postalcode: "98000"
+    city: Monaco
+    country: Monaco
+  expected_multiline: |
+    71 Jardin Exotique
+    98000 Monaco
+    Monaco
+  expected_singleline: >
+    71 Jardin Exotique, 98000 Monaco, Monaco
